@@ -1,0 +1,535 @@
+{
+    "categories": [
+      {
+        "name": "Seafood",
+        "types": [
+          {
+            "name": "Fish",
+            "products": [
+              {
+                "id": 1,
+                "title": "Salmon",
+                "desc": "That's the description for Salmon"
+              },
+              {
+                "id": 2,
+                "title": "Tuna",
+                "desc": "That's the description for Tuna"
+              },
+              {
+                "id": 3,
+                "title": "Mackerel",
+                "desc": "That's the description for Mackerel"
+              }
+            ]
+          },
+          {
+            "name": "Crustacean",
+            "products": [
+              {
+                "id": 4,
+                "title": "Shrimp",
+                "desc": "That's the description for Shrimp"
+              },
+              {
+                "id": 5,
+                "title": "Crab",
+                "desc": "That's the description for Crab"
+              },
+              {
+                "id": 6,
+                "title": "Lobster",
+                "desc": "That's the description for Lobster"
+              }
+            ]
+          },
+          {
+            "name": "Other Seafood",
+            "products": [
+              {
+                "id": 7,
+                "title": "Octopus",
+                "desc": "That's the description for Octopus"
+              },
+              {
+                "id": 8,
+                "title": "Squid",
+                "desc": "That's the description for Squid"
+              },
+              {
+                "id": 9,
+                "title": "Clams",
+                "desc": "That's the description for Clams"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vegetables",
+        "types": [
+          {
+            "name": "Leafy Greens",
+            "products": [
+              {
+                "id": 10,
+                "title": "Spinach",
+                "desc": "That's the description for Spinach"
+              },
+              {
+                "id": 11,
+                "title": "Kale",
+                "desc": "That's the description for Kale"
+              },
+              {
+                "id": 12,
+                "title": "Lettuce",
+                "desc": "That's the description for Lettuce"
+              }
+            ]
+          },
+          {
+            "name": "Root Vegetables",
+            "products": [
+              {
+                "id": 13,
+                "title": "Carrots",
+                "desc": "That's the description for Carrots"
+              },
+              {
+                "id": 14,
+                "title": "Potatoes",
+                "desc": "That's the description for Potatoes"
+              },
+              {
+                "id": 15,
+                "title": "Beets",
+                "desc": "That's the description for Beets"
+              }
+            ]
+          },
+          {
+            "name": "Packaged Fruits & Vegetables",
+            "products": [
+              {
+                "id": 16,
+                "title": "Canned Pineapple",
+                "desc": "That's the description for Canned Pineapple"
+              },
+              {
+                "id": 17,
+                "title": "Frozen Mixed Vegetables",
+                "desc": "That's the description for Frozen Mixed Vegetables"
+              },
+              {
+                "id": 18,
+                "title": "Dried Mango",
+                "desc": "That's the descriptionfor Dried Mango"
+              }
+            ]
+          },
+          {
+            "name": "Fruits",
+            "products": [
+              {
+                "id": 19,
+                "title": "Apple",
+                "desc": "That's the description for Apple"
+              },
+              {
+                "id": 20,
+                "title": "Banana",
+                "desc": "That's the description for Banana"
+              },
+              {
+                "id": 21,
+                "title": "Orange",
+                "desc": "That's the description for Orange"
+              }
+            ]
+          },
+          {
+            "name": "Grains, Cereal & Legumes",
+            "products": [
+              {
+                "id": 22,
+                "title": "Rice",
+                "desc": "That's the description for Rice"
+              },
+              {
+                "id": 23,
+                "title": "Quinoa",
+                "desc": "That's the description for Quinoa"
+              },
+              {
+                "id": 24,
+                "title": "Lentils",
+                "desc": "That's the description for Lentils"
+              }
+            ]
+          },
+          {
+            "name": "Oil & Fats",
+            "products": [
+              {
+                "id": 25,
+                "title": "Olive Oil",
+                "desc": "That's the description for Olive Oil"
+              },
+              {
+                "id": 26,
+                "title": "Coconut Oil",
+                "desc": "That's the description for Coconut Oil"
+              },
+              {
+                "id": 27,
+                "title": "Avocado Oil",
+                "desc": "That's the description for Avocado Oil"
+              }
+            ]
+          },
+          {
+            "name": "Herbs, Spices & Seasonings",
+            "products": [
+              {
+                "id": 28,
+                "title": "Basil",
+                "desc": "That's the description for Basil"
+              },
+              {
+                "id": 29,
+                "title": "Cinnamon",
+                "desc": "That's the description for Cinnamon"
+              },
+              {
+                "id": 30,
+                "title": "Garlic Powder",
+                "desc": "That's the description for Garlic Powder"
+              }
+            ]
+          },
+          {
+            "name": "Nuts & Seeds",
+            "products": [
+              {
+                "id": 31,
+                "title": "Almonds",
+                "desc": "That's the description for Almonds"
+              },
+              {
+                "id": 32,
+                "title": "Walnuts",
+                "desc": "That's the description for Walnuts"
+              },
+              {
+                "id": 33,
+                "title": "Chia Seeds",
+                "desc": "That's the description for Chia Seeds"
+              }
+            ]
+          },
+          {
+            "name": "Packaged Meat & Seafood",
+            "products": [
+              {
+                "id": 34,
+                "title": "Canned Tuna",
+                "desc": "That's the description for Canned Tuna"
+              },
+              {
+                "id": 35,
+                "title": "Frozen Chicken Breast",
+                "desc": "That's the description for Frozen Chicken Breast"
+              },
+              {
+                "id": 36,
+                "title": "Smoked Salmon",
+                "desc": "That's the description for Smoked Salmon"
+              }
+            ]
+          },
+          {
+            "name": "Dairy",
+            "products": [
+              {
+                "id": 37,
+                "title": "Milk",
+                "desc": "That's the description for Milk"
+              },
+              {
+                "id": 38,
+                "title": "Cheese",
+                "desc": "That's the description for Cheese"
+              },
+              {
+                "id": 39,
+                "title": "Yogurt",
+                "desc": "That's the description for Yogurt"
+              }
+            ]
+          },
+          {
+            "name": "Snack & Confectionary",
+            "products": [
+              {
+                "id": 40,
+                "title": "Chocolate Bar",
+                "desc": "That's the description for Chocolate Bar"
+              },
+              {
+                "id": 41,
+                "title": "Potato Chips",
+                "desc": "That's the description for Potato Chips"
+              },
+              {
+                "id": 42,
+                "title": "Gummy Bears",
+                "desc": "That's the description for Gummy Bears"
+              }
+            ]
+          },
+          {
+            "name": "Simple Processed Fruits",
+            "products": [
+              {
+                "id": 43,
+                "title": "Fruit Cups",
+                "desc": "That's the description for Fruit Cups"
+              },
+              {
+                "id": 44,
+                "title": "Fruit Snacks",
+                "desc": "That's the description for Fruit Snacks"
+              },
+              {
+                "id": 45,
+                "title": "Applesauce",
+                "desc": "That's the description for Applesauce"
+              }
+            ]
+          },
+          {
+            "name": "Non-Alcoholic Beverage",
+            "products": [
+              {
+                "id": 46,
+                "title": "Water",
+                "desc": "That's the description for Water"
+              },
+              {
+                "id": 47,
+                "title": "Juice",
+                "desc": "That's the description for Juice"
+              },
+              {
+                "id": 48,
+                "title": "Tea",
+                "desc": "That's the description for Tea"
+              }
+            ]
+          },
+          {
+            "name": "Other Packaged Foods",
+            "products": [
+              {
+                "id": 49,
+                "title": "Canned Soup",
+                "desc": "That's the description for Canned Soup"
+              },
+              {
+                "id": 50,
+                "title": "Instant Noodles",
+                "desc": "That's the description for Instant Noodles"
+              },
+              {
+                "id": 51,
+                "title": "Cereal",
+                "desc": "That's the description for Cereal"
+              }
+            ]
+          },
+          {
+            "name": "Meat",
+            "products": [
+              {
+                "id": 52,
+                "title": "Beef",
+                "desc": "That's the description for Beef"
+              },
+              {
+                "id": 53,
+                "title": "Chicken",
+                "desc": "That's the description for Chicken"
+              },
+              {
+                "id": 54,
+                "title": "Pork",
+                "desc": "That's the description for Pork"
+              }
+            ]
+          },
+          {
+            "name": "Agricultural By-products",
+            "products": [
+              {
+                "id": 55,
+                "title": "Wheat Bran",
+                "desc": "That's the description for Wheat Bran"
+              },
+              {
+                "id": 56,
+                "title": "Corn Stalks",
+                "desc": "That's the description for Corn Stalks"
+              },
+              {
+                "id": 57,
+                "title": "Rice Hulls",
+                "desc": "That's the description for Rice Hulls"
+              }
+            ]
+          },
+          {
+            "name": "Simple Processed Vegetables",
+            "products": [
+              {
+                "id": 58,
+                "title": "Canned Corn",
+                "desc": "That's the description for Canned Corn"
+              },
+              {
+                "id": 59,
+                "title": "Frozen Peas",
+                "desc": "That's the description for Frozen Peas"
+              },
+              {
+                "id": 60,
+                "title": "Pickles",
+                "desc": "That's the description for Pickles"
+              }
+            ]
+          },
+          {
+            "name": "Coffee & Tea",
+            "products": [
+              {
+                "id": 61,
+                "title": "Coffee Beans",
+                "desc": "That's the description for Coffee Beans"
+              },
+              {
+                "id": 62,
+                "title": "Black Tea",
+                "desc": "That's the description for Black Tea"
+              },
+              {
+                "id": 63,
+                "title": "Green Tea",
+                "desc": "That's the description for Green Tea"
+              }
+            ]
+          },
+          {
+            "name": "Alcoholic Beverage",
+            "products": [
+              {
+                "id": 64,
+                "title": "Beer",
+                "desc": "That's the description for Beer"
+              },
+              {
+                "id": 65,
+                "title": "Wine",
+                "desc": "That's the description for Wine"
+              },
+              {
+                "id": 66,
+                "title": "Whiskey",
+                "desc": "That's the description for Whiskey"
+              }
+            ]
+          },
+          {
+            "name": "Food Additives",
+            "products": [
+              {
+                "id": 67,
+                "title": "Salt",
+                "desc": "That's the description for Salt"
+              },
+              {
+                "id": 68,
+                "title": "Sugar",
+                "desc": "That's the description for Sugar"
+              },
+              {
+                "id": 69,
+                "title": "Food Coloring",
+                "desc": "That's the description for Food Coloring"
+              }
+            ]
+          },
+          {
+            "name": "Packaged Legumes, Beans & Peas",
+            "products": [
+              {
+                "id": 70,
+                "title": "Canned Chickpeas",
+                "desc": "That's the description for Canned Chickpeas"
+              },
+              {
+                "id": 71,
+                "title": "Black Beans",
+                "desc": "That's the description for Black Beans"
+              },
+              {
+                "id": 72,
+                "title": "Green Peas",
+                "desc": "That's the description for Green Peas"
+              }
+            ]
+          },
+          {
+            "name": "Cocoa Products",
+            "products": [
+              {
+                "id": 73,
+                "title": "Cocoa Powder",
+                "desc": "That's the description for Cocoa Powder"
+              },
+              {
+                "id": 74,
+                "title": "Chocolate Chips",
+                "desc": "That's the description for Chocolate Chips"
+              },
+              {
+                "id": 75,
+                "title": "Cocoa Butter",
+                "desc": "That's the description for Cocoa Butter"
+              }
+            ]
+          },
+          {
+            "name": "Others",
+            "products": [
+              {
+                "id": 76,
+                "title": "Honey",
+                "desc": "That's the description for Honey"
+              },
+              {
+                "id": 77,
+                "title": "Maple Syrup",
+                "desc": "That's the description for Maple Syrup"
+              },
+              {
+                "id": 78,
+                "title": "Peanut Butter",
+                "desc": "That's the description for Peanut Butter"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
