@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import { Button, Col, Form, FormControl, InputGroup, Offcanvas, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./SearchInput.module.css";
-import { useDispatch, useSelector } from "react-redux";
-import { productActions, search } from "../../Store/Slices/productSlice";
+import { useDispatch } from "react-redux";
+import { search } from "../../Store/Slices/productSlice";
 import { handleShow } from "../../Store/Slices/offCanvas";
 
 export default function SearchInput() {
-  const {show} = useSelector(store => store.offCanvaseSlice)
 
 
   const dispatch = useDispatch();

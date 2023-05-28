@@ -16,13 +16,8 @@
     border-bottom: 1px solid #ccc;
   }
   
-  .keywordList li:hover {
-    /* background-color: #e0e0e0; */
-  }
-  
+
   .keywordList li.active {
-    /* background-color: #ddd; */
-    /* font-weight: bold; */
     font-weight: 600;
     color: rgb(16, 95, 213);
   }

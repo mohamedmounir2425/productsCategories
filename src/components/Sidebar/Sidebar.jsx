@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Col, Container, ListGroup, Offcanvas } from "react-bootstrap";
+import { Col, Container, Offcanvas } from "react-bootstrap";
 import style from "./Sidebar.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { getData } from "../../Store/Slices/productSlice";
@@ -42,7 +42,7 @@ export default function Sidebar() {
 console.log(products)
   return (
     <>
-      <Col md={3} className={`${style.bgColor} p-3 rounded d-sm-none d-md-block `}>
+      <Col md={3} className={`${style.bgColor} p-3 rounded d-none d-md-block `}>
        
         <ul className={`${style.keywordList }`}>
           {keywords.map((keyword, index) => (

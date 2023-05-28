@@ -34,7 +34,7 @@ export default function Footer() {
                 </ul>
               </div>
             </Col>
-            <Col md={3} sm={6} xs={12}>
+            <Col md={'auto'} sm={6} xs={12}>
               <div className="footer-list">
                 <p>INTELLIGENCE &amp; DATA</p>
                 <ul>
@@ -66,7 +66,7 @@ export default function Footer() {
               </div>
             </Col>
 
-            <Col md={2} sm={6} xs={12}>
+            <Col md={'auto'} sm={6} xs={12}>
               <div className="footer-list">
                 <p>FULFILLMENT SOLUTION</p>
                 <ul>

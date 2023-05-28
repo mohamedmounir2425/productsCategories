@@ -2,8 +2,11 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { Col, Container, Row } from "react-bootstrap";
+import { useDispatch } from "react-redux";
+import { handleShowPopupSearch } from "../../Store/Slices/PopupSearch";
 
 const Navbar = () => {
+  const dispatch = useDispatch();
   const [isHovered, setIsHovered] = useState(false);
 
   const handleHover = () => {
@@ -16,8 +19,8 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-sm border-bottom p-0">
-        <div className={`${styles.container}  `}>
+      <nav className={`navbar navbar-expand-lg border-bottom p-0 ${styles.container}`}>
+        <div className={` container-fluid  `}>
           <img
             className={`${styles.logo}`}
             src="https://cdn-new.tridge.com/assets/S27EOULS.svg"
@@ -34,8 +37,8 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="collapsibleNavId">
-            <ul className="navbar-nav mt-lg-0 navList">
+          <div className="collapse navbar-collapse bg-white" id="collapsibleNavId">
+            <ul className="navbar-nav mt-lg-0 me-auto">
               <li className="nav-item">
                 <a
                   className={`nav-link text-black ${
@@ -143,13 +146,13 @@ const Navbar = () => {
               </li>
             </ul>
             <ul className="navbar-nav ms-auto mt-lg-0">
-              <li className={`nav-item ${styles.searchIcon}`}>
+              <li onClick={()=> dispatch(handleShowPopupSearch(true))} className={`nav-item ${styles.searchIcon}`}>
                 <a className="nav-link text-black " href="#">
                   <i className={`bi bi-search fs-5 `}></i>
                 </a>
               </li>
               <li className="nav-item">
-                <button className={`btn btn-dark rounded rounded-pill`}>
+                <button className={`btn btn-dark  rounded rounded-pill`}>
                   Sign In
                 </button>
               </li>
@@ -203,6 +206,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+    
     </div>
   );
 };

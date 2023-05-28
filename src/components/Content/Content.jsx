@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import style from './Content.module.css'
 import { Card, Col, Row } from 'react-bootstrap'
 import { useSelector } from 'react-redux';
+import Loading from '../Loading/Loading';
 
 export default function Content() {
     const { products,searchQuery} = useSelector(
@@ -11,7 +12,7 @@ export default function Content() {
     <>
        <Col xs={12} md={9} className="content">
        <Row className={` gy-4`}>
-          {products.filter((product) => {
+          {products.length === 0 ? <Loading/> : products.filter((product) => {
             return product.title.toLowerCase().includes(searchQuery.toLowerCase())
           }).map((product,index) => {
 

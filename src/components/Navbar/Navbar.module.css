@@ -5,12 +5,16 @@
   }
   
   .container {
-    width: 100%;
-    padding: 0 32px;
+ 
     display: flex;
     align-items: center;
     height: 68px;
   }
+  .containerWidth {
+    padding: 0 32px !important;
+
+  }
+
   
   .svg {
     height: 20px;
@@ -33,9 +37,7 @@
     padding: 10px;
   }
   
-  .navList {
-    margin-right: auto;
-  }
+ 
   
   .navLinks {
     position: relative;
