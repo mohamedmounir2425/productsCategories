@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import { Col, Container, Offcanvas } from "react-bootstrap";
 import style from "./Sidebar.module.css";
